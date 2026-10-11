@@ -48,6 +48,9 @@ Model Building & Validation:Implementation of Machine Learning algorithms (e.g.,
 
 An databased published by DIFAQUIM research group in UNAM were evaluated for the search of new estructures with antimicrobial activity, a molecules called Aristoloxacin A were predicted his activity with a vey little diference that aloow us to the percibe the predectivie power of our model.
 
+<img width="1280" height="720" alt="Platica_Andrés_1 pptx (4)" src="https://github.com/user-attachments/assets/8afb1e09-b225-4279-9b6f-ef63bf928d23" />
+
+
 <img width="1280" height="720" alt="Platica_Andrés_1 pptx" src="https://github.com/user-attachments/assets/249e5ff1-1eef-42b3-bf08-cb0f196cfcc9" />
 
 
