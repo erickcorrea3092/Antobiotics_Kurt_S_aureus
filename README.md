@@ -4,6 +4,8 @@ This code is about a QSAR model development for the prediction of the antimicrob
 QSAR Modeling for Antibiotic Activity Against Staphylococcus aureus
 
 this work was a merit for a thesis and the obtention of B. Sc. degree in UNAM in Mexico City.
+
+
 📝 Citation & Credits
 Research Group / Supervised by: Dr. Erick Correa Padilla
 
