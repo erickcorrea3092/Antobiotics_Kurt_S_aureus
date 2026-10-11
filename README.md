@@ -3,6 +3,12 @@ This code is about a QSAR model development for the prediction of the antimicrob
 
 QSAR Modeling for Antibiotic Activity Against Staphylococcus aureus
 
+this work was a merit for a thesis and the obtention of B. Sc. degree in UNAM in Mexico City.
+📝 Citation & Credits
+Research Group / Supervised by: Dr. Erick Correa Padilla
+
+Thesis / Contributor: Cristopher Carlos Verde Pérez
+
 📌 Description
 
 This repository contains the dataset, computational scripts, and Machine Learning models developed to predict antibacterial activity ($\text{pIC}_{50}$ / $\text{MIC}$) against Staphylococcus aureus.Using quantitative structure-activity relationship (QSAR) methodologies and molecular descriptors calculated from chemical structures (SMILES), this project aims to support the rational design and virtual screening of novel therapeutic candidates to combat bacterial resistance.
@@ -22,21 +28,10 @@ The recopilation of the data is in the excel archive .xlsx type called data.xlsx
 
 With this information is posible the construction of a model QSAR. first, we calculate molcular descriptors using mordred library. we dont show the exctly script but we left a script where can ilustrate the code for the obtention of molecular descriptors. Anyway the excel type archive is ActividadV.xlsx and the archive with the endpoint pMIC realated is in ActividadV.xlsx.
 
-the scripts 2 and 3 show the construction fo the model, the script 2 is a simple construction of the QSAR model, the main function is known how make the splittin of the train an test group, the construction of a pipeline, how many descriptors use, what regressor model use and its hyperparameters, etc, while the third script was created for understand how is the data bahaivor along the pipeline executation. 
+The scripts 2_kurt_búsqueda.ipynb and 3_Resumen_Kurt.ipynb show the construction fo the model, the script 2_kurt_búsqueda.ipynb is a simple construction of the QSAR model, the main function is known how make the splittin of the train an test group, the construction of a pipeline, how many descriptors use, what regressor model use and its hyperparameters, etc, while the third script was created for understand how is the data bahaivor along the pipeline executation. 
 
-In forth script is defined also the Aplication Domain by leverage method, and in this, we can make the predictions of our molecules that we want to investigate, that group is called xplor group, the chemical space is defined by the Lipinski criteria and three represenattions were made: Principal Component Analisis PCA, T-distributed Stochastic Neighbor Embedding (tSNE) and UMAP (Uniform Manifold Approximation and Projection).
+In forth script 4_Kurt__final.ipynb is defined also the Aplication Domain by leverage method, and in this, we can make the predictions of our new molecules that we want to investigate, that group is called 'xplor' group, add, the chemical space is defined by the Lipinski criteria and three represenattions of chemical space were made: Principal Component Analisis PCA, T-distributed Stochastic Neighbor Embedding (tSNE) and UMAP (Uniform Manifold Approximation and Projection).
 
-
-
- 
-The methodological WorkflowData of the model is below: 
-
-Curation & Preprocessing:Curation of bioactive compounds tested against Staphylococcus aureus.
-Standardization of chemical structures (removal of salts, neutralization, tautomer evaluation).
-
-Feature Extraction:Calculation of 2D/3D molecular descriptors and Morgan Fingerprints (ECFP4/6) using RDKit/py3Dmol.
-
-Model Building & Validation:Implementation of Machine Learning algorithms (e.g., Random Forest, XGBoost, Support Vector Machines).Evaluation through internal validation (Cross-Validation, $R^2$, $Q^2$, RMSE) and domain of applicability analysis.
 
 <img width="1280" height="720" alt="Platica_Andrés_1 pptx (2)" src="https://github.com/user-attachments/assets/773e4118-9d9c-446d-9361-3daf55ef2c07" />
 
