@@ -26,9 +26,9 @@ the scripts 2 and 3 show the construction fo the model, the script 2 is a simple
 
 In forth script is defined also the Aplication Domain by leverage method, and in this, we can make the predictions of our molecules that we want to investigate, that group is called xplor group, the chemical space is defined by the Lipinski criteria and three represenattions were made: Principal Component Analisis PCA, T-distributed Stochastic Neighbor Embedding (tSNE) and UMAP (Uniform Manifold Approximation and Projection).
 
-An databased published by DIFAQUIM research group in UNAM were evaluated for the search of new estructures with antimicrobial activity, a molecules called Aristoloxacin A were predicted his activity with a vey little diference that aloow us to the percibe the predectivie power of our model.
 
 
+ 
 The methodological WorkflowData of the model is below: 
 
 Curation & Preprocessing:Curation of bioactive compounds tested against Staphylococcus aureus.
@@ -37,3 +37,20 @@ Standardization of chemical structures (removal of salts, neutralization, tautom
 Feature Extraction:Calculation of 2D/3D molecular descriptors and Morgan Fingerprints (ECFP4/6) using RDKit/py3Dmol.
 
 Model Building & Validation:Implementation of Machine Learning algorithms (e.g., Random Forest, XGBoost, Support Vector Machines).Evaluation through internal validation (Cross-Validation, $R^2$, $Q^2$, RMSE) and domain of applicability analysis.
+
+<img width="1280" height="720" alt="Platica_Andrés_1 pptx (2)" src="https://github.com/user-attachments/assets/773e4118-9d9c-446d-9361-3daf55ef2c07" />
+
+
+<img width="1280" height="720" alt="Platica_Andrés_1 pptx (3)" src="https://github.com/user-attachments/assets/7fae3891-616c-43f3-a21f-9555f7a02e35" />
+
+
+
+
+An databased published by DIFAQUIM research group in UNAM were evaluated for the search of new estructures with antimicrobial activity, a molecules called Aristoloxacin A were predicted his activity with a vey little diference that aloow us to the percibe the predectivie power of our model.
+
+<img width="1280" height="720" alt="Platica_Andrés_1 pptx" src="https://github.com/user-attachments/assets/249e5ff1-1eef-42b3-bf08-cb0f196cfcc9" />
+
+
+<img width="1280" height="720" alt="Platica_Andrés_1 pptx (1)" src="https://github.com/user-attachments/assets/eca3b97d-1ac5-435e-83eb-1e305e37e1ac" />
+
+
