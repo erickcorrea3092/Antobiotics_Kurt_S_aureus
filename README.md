@@ -11,6 +11,8 @@ Research Group / Supervised by: Dr. Erick Correa Padilla
 
 Thesis / Contributor: Cristopher Carlos Verde Pérez
 
+https://tesiunam.dgb.unam.mx/cgi-bin/koha/opac-detail.pl?biblionumber=881350&query_desc=erick%20correa%20padilla
+
 📌 Description
 
 This repository contains the dataset, computational scripts, and Machine Learning models developed to predict antibacterial activity ($\text{pIC}_{50}$ / $\text{MIC}$) against Staphylococcus aureus.Using quantitative structure-activity relationship (QSAR) methodologies and molecular descriptors calculated from chemical structures (SMILES), this project aims to support the rational design and virtual screening of novel therapeutic candidates to combat bacterial resistance.
